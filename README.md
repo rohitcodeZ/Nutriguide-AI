@@ -20,4 +20,5 @@ AI-powered nutrition and diet planning platform built using the MERN Stack.
 - Node.js
 - JWT Authentication
 - DeepSeek/Gemini AI
+- <br>
 Author - Rohit Kumar
