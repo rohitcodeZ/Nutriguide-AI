@@ -1,0 +1,27 @@
+{
+  "name": "nutriguide-ai-server",
+  "version": "1.0.0",
+  "description": "NutriGuide AI — Express + MongoDB backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node data/seed.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.6.0",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "groq-sdk": "^1.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.24.0",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.9",
+    "openai": "^6.39.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

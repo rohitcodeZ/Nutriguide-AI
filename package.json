@@ -1,0 +1,16 @@
+{
+  "name": "nutriguide-ai",
+  "version": "1.0.0",
+  "description": "NutriGuide AI — Full MERN Stack (MongoDB + Express + React + Node.js)",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "start": "cd server && npm start",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
